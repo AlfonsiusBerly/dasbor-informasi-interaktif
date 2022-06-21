@@ -8,225 +8,342 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a>
+    <img src="images/ikn.png" alt="Logo" width="160" height="80">
   </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
 </div>
 
 
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
 
 <!-- ABOUT THE PROJECT -->
-## Visualisasi Faktor-Faktor yang Memengaruhi Pemindahan Ibukota Negara Republik Indonesia dalam rangka Meningkatkan Dukungan Masyarakat terhadap Pemerintah 
+# Visualisasi Faktor-Faktor yang Memengaruhi Pemindahan Ibukota Negara Republik Indonesia dalam rangka Meningkatkan Dukungan Masyarakat terhadap Pemerintah 
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+## Latar Belakang
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Pemindahan Ibu Kota Republik Negara Indonesia bukan merupakan sesuatu yang baru. Rencana ini sudah ada sejak zaman kolonialisme, hingga pada akhirnya pelaksanaan pemindahan ibu kota negara ini diumumkan kepada masyarakat Indonesia pada tanggal 16 Agustus 2019, oleh Presiden Joko Widodo. Pada prakteknya, pemindahan ibu kota negara ini menuai sejumlah dukungan maupun kecaman dari masyarakat. Berimbangnya proporsi pendapat yang pro dan kontra menggambarkan kondisi masyarakat yang masih belum sepenuhnya percaya kepada pemerintah. Oleh karena itu, diperlukan sosialisasi serta promosi yang lebih baik mengenai pemindahan ibu kota negara. Sosialisasi tersebut salah satunya dapat dilakukan dengan membangun dasbor informasi interaktif yang dapat diakses oleh masyarakat secara daring.  Dasbor informasi yang dihasilkan dalam penelitian ini menampilkan berbagai faktor yang dipercaya memengaruhi keputusan dilakukannya pemindahan ibu kota negara.
 
 
+Pada penelitian ini, Tableau Desktop digunakan untuk membuat visualisasi, sedangkan Tableau Public digunakan dalam menyajikan visualisasi yang telah tersedia. Hasil evaluasi dasbor ini menunjukkan bahwa dasbor informasi dapat digunakan dengan baik oleh kedua kelompok responden yang memiliki pandangan berbeda tentang adanya pemindahan ibukota negara. Dasbor informasi interaktif ini diharapkan dapat meningkatkan pemahaman serta dukungan masyarakat terhadap pemerintah, khususnya mengenai agenda pemindahan ibukota negara dari Jakarta ke Kalimantan Timur, yang secara berkala sedang terus dilaksanakan. 
 
-### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+<p align="right">(<a href="#top">1</a>)</p>
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+## Tujuan
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+Berdasarkan latar belakang yang telah dijelaskan, tujuan dari penelitian ini adalah sebagai berikut. 
+1.	Membuat visualisasi data faktor-faktor yang memengaruhi kepindahan ibukota negara berdasarkan provinsi di Indonesia.
+2.	Membangun dasbor informasi yang dapat diakses oleh masyarakat dengan mudah.
+3.	Mengetahui hasil evaluasi serta perbedaan persepsi penilaian visualisasi pada kedua kelompok responden
+
+
+
+<p align="right">(<a href="#top">2</a>)</p>
+
+
+
+## Hasil dan Pembahasan
+
+Hasil dari penelitian ini berupa dasbor informasi interaktif yang menampilkan data faktor-faktor yang dipercaya memengaruhi keputusan pemerintah dalam melakukan pemindahan ibukota negara berdasarkan provinsi di Indonesia. 
+1. Dasbor dirancang dengan mengusung konsep bercerita agar isinya dapat dimengerti oleh lebih banyak kalangan masyarakat, tidak hanya kelompok akademis. 
+2. Pemilihan warna di dalam dasbor ini juga memperhitungkan kondisi buta warna. Warna yang digunakan terbatas pada nuansa biru dan oranye, yang berdasarkan beberapa sumber, lebih ramah bagi penyintas buta warna. 
+3. Dasbor ini akan optimal apabila ditampilkan dengan layar beresolusi HD (1920 x 1080).
+
+Visualisasi dapat diakses pada link di bawah ini:
+
+* [Tautan hasil visualisasi menggunakan Tableau](https://public.tableau.com/app/profile/alfonsius.berly/viz/VisualisasiFaktor-FaktoryangMemengaruhiPemindahanIbuKotaNegaraRepublikIndonesiadalamrangkaMeningkatkanDukunganMasyarakatterhadapPemerintah/Story1)
+
+
+
+<p align="right">(<a href="#top">3</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## A.  Tampilan 1
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Dasbor informasi interaktif yang dibangun terdiri dari 3 tampilan utama. Secara umum, dapat diamati bahwa terdapat 5 container utama. Container 1 berisi header dasbor, sedangkan 4 container yang lainnya digunakan untuk menampilkan konten informasi. Tampilan 1 pada dasbor ini merupakan bagian pembukaan yang memuat tentang latar belakang serta lini masa pemindahan IKN. 
+<br><br/>
 
-### Prerequisites
+<div align="center">
+  <a>
+    <img src="images/1.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+<br><br/>
+### 1. Lini Masa
 
-### Installation
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/2.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<br><br/>
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Berikut aksi yang dapat dilakukan
+  
+  <div align="center">
+  <a>
+    <img src="images/3.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<br><br/>
+
+### 2. Peta Profil
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/4.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+Berikut aksi yang dapat dilakukan<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/5.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+## B.  Tampilan 2
+
+Secara umum, dapat diamati bahwa sama seperti tampilan 1, tampilan 2 memiliki 5 container utama. Container 1 berisi header dasbor, sedangkan 4 container yang lainnya digunakan untuk menampilkan konten informasi. Perbedaanya, pada header tampilan 2, terdapat filter yang dapat digunakan. Filter tersebut adalah kelompok daerah dan tahun. Apabila filter diklik, maka peta dan tree map akan menampilkan informasi yang spesifik berdasarkan kategori yang dipilih.
+<br><br/>
+
+<div align="center">
+  <a>
+    <img src="images/6.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+### 1. Peta IKLH
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/7.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+Berikut aksi yang dapat dilakukan serta cara kalkulasi variabel
+  
+  <div align="center">
+  <a>
+    <img src="images/9.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+### 2. Tree Map Luas Wilayah
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/10.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+### 3. Tree Map Jumlah Penduduk
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/11.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+Berikut aksi yang dapat dilakukan serta cara kalkulasi variabel
+  
+  <div align="center">
+  <a>
+    <img src="images/12.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+Berikut aksi dengan klik filter daerah. Contoh: Jawa
+  
+  <div align="center">
+  <a>
+    <img src="images/13.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+Berikut aksi dengan klik konten (highlight).
+  
+  <div align="center">
+  <a>
+    <img src="images/14.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
 
 
+## C.  Tampilan 3
 
-<!-- USAGE EXAMPLES -->
-## Usage
+Secara umum, dapat diamati bahwa tampilan 3 memiliki tata letak yang mirip dengan 3. Container 1 terdapat filter yang dapat digunakan. Filter tersebut adalah kelompok daerah dan tahun. Apabila filter diklik, maka peta kejadian bencana, bubble map, tdot plot, serta statistik kebencanaan akan menampilkan informasi yang spesifik berdasarkan kategori yang dipilih.
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+<br><br/>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<div align="center">
+  <a>
+    <img src="images/15.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<br><br/>
+
+### 1. Peta Kejadian Bencana
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/16.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+Berikut aksi yang dapat dilakukan serta cara kalkulasi variabel
+  
+  <div align="center">
+  <a>
+    <img src="images/17.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+### 2. Heat Map data Tunggal
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/18.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+### 3. Bubble Map Kontribusi PDB
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/19.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+Berikut aksi yang dapat dilakukan serta cara kalkulasi variabel
+  
+  <div align="center">
+  <a>
+    <img src="images/20.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+
+<br><br/>
+
+### 4. Garis Kejadian Bencana
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/21.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
+
+### 5. Dot Plot Jarak
+
+Berikut tampilannya dan data yang digunakan
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/22.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
 
 
+Berikut aksi dengan klik filter daerah. Contoh: Sulawesi
+  
+  <div align="center">
+  <a>
+    <img src="images/23.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-<!-- ROADMAP -->
-## Roadmap
+<br><br/>
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+Berikut aksi dengan klik konten (highlight).
+  
+  <div align="center">
+  <a>
+    <img src="images/24.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+<br><br/>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+### Lainnya
 
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Berikut tampilannya bar filter nama dibentuk
+<br><br/>
+  
+  <div align="center">
+  <a>
+    <img src="images/25.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
+<br><br/>
 
 
+Berikut contoh set action di menu worksheet -> action -> add action
+  
+  <div align="center">
+  <a>
+    <img src="images/26.png" alt="Logo" width="800" height="400">
+  </a>
+</div>
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+<br><br/>
 
 
+### Selesai
 
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
